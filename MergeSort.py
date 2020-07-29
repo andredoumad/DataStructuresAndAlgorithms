@@ -30,6 +30,6 @@ def MergeSort(n):
             i_right+=1
             i_new+=1
         return n
-
+# O(nlogn)
 print(MergeSort([12,99,33,22,100,44,2,0,1,200,300,233,428,5]))
 # output: [0, 1, 2, 5, 12, 22, 33, 44, 99, 100, 200, 233, 300, 428]
