@@ -21,7 +21,6 @@ class Graph(object):
         for key, value in self.adj.items():
             print('key: ' + str(key) + ' val is ' + str(value))
 
-
     def bfs(self, s):
         print('breadth first search')
         b_visited = {}
